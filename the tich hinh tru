@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <iostream>
+#include <iomanip>
+#define pi 3.1415
+using namespace std;
+
+int main()
+{
+    float r,h;
+    cout << "-----------Tinh THE TICH HINH TRU----------\n";
+    cout << "nhap vao chieu cao h: " ;
+    cin >> h;
+    cout << "nhap vao ban kinh r: " ;
+    cin >> r;
+    cout << "The tich hinh tru : " << r*r*h*pi;
+    return 0;
+}
