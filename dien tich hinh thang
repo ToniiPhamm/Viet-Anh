@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float a,b,h;
+    cout << "-----------Tinh DT HINH THANG----------\n";
+    cout << "nhap vao canh day a: " ;
+    cin >> a;
+    cout << "nhap vao canh tren b: " ;
+    cin >> b;
+    cout << "nhap vao chieu cao h: " ;
+    cin >> h;
+    cout << fixed << setprecision(2) << "Dien tich hinh thang : " << (a+b)*h/2;
+
+    return 0;
+}
