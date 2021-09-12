@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float a,b,c;
+    cout << "-----------Tinh s= (a+b)2 + b+c----------\n";
+    cout << "nhap vao gia tri a: " ;
+    cin >> a;
+    cout << "nhap vao gia tri b: " ;
+    cin >> b;
+    cout << "nhap vao gia tri c: " ;
+    cin >> c;
+    cout << "S= : " << (a+b)*(a+b)+b+c;
+
+    return 0;
+}
